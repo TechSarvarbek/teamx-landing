@@ -1,0 +1,28 @@
+.custom-card {
+    /* Asosiy usul */
+    width: 100%;
+  }
+  
+  .custom-card-img {
+    /* Asosiy usul */
+    width: 100%;
+    height: auto;
+  }
+  
+  .custom-card-title {
+    /* Asosiy usul */
+    font-size: 18px;
+  }
+  
+  /* Responsivlik */
+  @media (max-width: 768px) {
+    .custom-card-img {
+      /* Kichik ekranlar uchun rasm hajmini kichraytirish */
+      width: 60%;
+    }
+  
+    .custom-card-title {
+      /* Kichik ekranlar uchun matn hajmini kichraytirish */
+      font-size: 15px;
+    }
+  }

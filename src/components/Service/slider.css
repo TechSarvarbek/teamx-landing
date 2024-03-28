@@ -1,0 +1,26 @@
+@import url('../../App.css');
+
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper img {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+}
+
+
+.service-title {
+  font-family: var(--font-family); 
+}

@@ -1,0 +1,41 @@
+
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    padding-top: 2rem;
+  }
+  
+  .content > img {
+    height: 45vh;
+  }
+  
+  .content > p {
+    font-size: 2rem;
+  }
+
+  
+  .animated-element {
+    position: absolute;
+    /* Animasyonlu elementlerin pozisyonunu belirleyin */
+    top: 0;
+    left: 0;
+    /* Elementin boyutunu ve diğer stillerini ayarlayın */
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    /* Animasyonlu efektler ekleyin */
+    animation: myAnimation 5s infinite;
+  }
+  
+  @keyframes myAnimation {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(400px);
+    }
+  }

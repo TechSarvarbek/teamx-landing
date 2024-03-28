@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sichqoncha Animatsiyasi</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <style>
+body {
+  background-color: #1D1E22;
+  cursor: none;
+}
+
+.cursor {
+  position: fixed;
+  pointer-events: none;
+}
+
+.rounded {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  transition: transform 0.3s;
+}
+
+.pointed {
+  width: 7px;
+  height: 7px;
+  background-color: white;
+  border-radius: 50%;
+  mix-blend-mode: difference;
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  transition: transform 0.3s;
+}
+  </style>
+</head>
+<body>
+  <div class="box cursor">
+    Hover over this box to see the custom cursor
+  </div>
+
+  <script>
+    const cursor = document.querySelector('.cursor.rounded');
+const cursorPointed = document.querySelector('.cursor.pointed');
+
+document.addEventListener('mousemove', moveCursor);
+
+function moveCursor(e) {
+  if (e.target.matches('.cursor')) {
+    cursor.style.display = 'block';
+    cursorPointed.style.display = 'block';
+    cursor.style.transform = `translate3d(${e.clientX}px, ${e.clientY}px, 0)`;
+    cursorPointed.style.transform = `translate3d(${e.clientX}px, ${e.clientY}px, 0)`;
+  } else {
+    cursor.style.display = 'none';
+    cursorPointed.style.display = 'none';
+  }
+}
+
+document.addEventListener('mouseleave', () => {
+  cursor.style.display = 'none';
+  cursorPointed.style.display = 'none';
+});
+  </script>
+</body>
+</html>
