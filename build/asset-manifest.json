@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b97fbd3c.css",
+    "main.js": "/static/js/main.2215feb5.js",
+    "static/js/453.092661b3.chunk.js": "/static/js/453.092661b3.chunk.js",
+    "static/media/web.jpg": "/static/media/web.d225be3f8a9e9114a923.jpg",
+    "static/media/mobile.jpg": "/static/media/mobile.1ffb6c332c7e11dc9f70.jpg",
+    "static/media/ai.jpg": "/static/media/ai.c1809b4839b621f6f76d.jpg",
+    "static/media/supercar.jpeg": "/static/media/supercar.88d6db98acbabfc9eb17.jpeg",
+    "static/media/bmw.jpeg": "/static/media/bmw.0339e4a3f0976cac6acd.jpeg",
+    "static/media/service-software.png": "/static/media/service-software.878cdec4fe1a41b1b680.png",
+    "static/media/service-smm.png": "/static/media/service-smm.42aacc60c70109e57393.png",
+    "static/media/service-hr.png": "/static/media/service-hr.551a7fd8faf690223c81.png",
+    "static/media/service-graphic-design.png": "/static/media/service-graphic-design.cd5680f8c7277a5fb7af.png",
+    "static/media/mers.jpeg": "/static/media/mers.53f56c3b940da2b5e8ad.jpeg",
+    "static/media/logo-dark.webp": "/static/media/logo-dark.b00d27193b122b55da01.webp",
+    "index.html": "/index.html",
+    "main.b97fbd3c.css.map": "/static/css/main.b97fbd3c.css.map",
+    "main.2215feb5.js.map": "/static/js/main.2215feb5.js.map",
+    "453.092661b3.chunk.js.map": "/static/js/453.092661b3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b97fbd3c.css",
+    "static/js/main.2215feb5.js"
+  ]
+}

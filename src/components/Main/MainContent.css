@@ -1,0 +1,83 @@
+@import url('../App/App.css');
+
+
+.main-content {
+  padding: 5% 20%;
+}
+
+.main-info {
+  text-align: center;
+}
+
+.main-title {
+  color: rgb(34, 27, 98);
+  font-family: var(--font-family);
+}
+
+.main-help-text {
+  font-size: 14px;
+  color: rgb(53, 42, 152);
+  font-family: var(--font-family-secondary);
+}
+
+.get-btn {
+  background-color: rgb(34, 27, 98);
+  padding: 15px 40px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  transition: background-color 0.2s ease;
+}
+
+.get-btn:hover {
+  background-color: #EFBC9B;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.card-text {
+  color: #777;
+  margin-bottom: 1rem;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    padding: 1% 20px;
+  }
+  .main-info {
+    margin-top: 25px;
+  }
+}
